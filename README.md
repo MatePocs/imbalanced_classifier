@@ -8,15 +8,12 @@ In this project, I examined how a Logistic Regression and a Decision Tree Classi
 For more information of the project, please refer to my [blogpost on Medium](https://medium.com/datadriveninvestor/handling-imbalanced-data-with-basic-classifier-models-5ce3d61874f1).
 <br>
 
-## Problem
 The term _“imbalanced data”_ is usually applied to cases where the different values of the target variable are not equally represented in the data. Technically speaking most data is imbalanced to some degree and that’s fine, but a significant difference in target variable groups can make classifier models unreliable. 
 <br>
-
 I am concentrating on two different problems when it comes to training models with imbalanced data: 
 - we want to maximize the classifier's accuracy;
 - we want to maximize the classifier's balanced accuracy. 
 <br>
-
 These require different mthods, depending on the data structure, and the classifier model we are training. 
 
 ## Data
@@ -32,12 +29,11 @@ In `Data_2`, the blue minority observations are in the middle of the large group
 
 ![](charts/data_2_optimal_with_histograms.png)
 
-# Methods
+## Methods
 As mentioned above, I am concentrating on the following two classifier models: 
 - Logistic Regression;
 - Decision Tree Classifier.
 <br>
-
 I am experimenting with different methods when it comes to offsetting data imbalance, the methods are: 
 - random undersampling;
 - utilizing scikit-learn's `class_weight` parameter;
