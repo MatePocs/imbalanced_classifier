@@ -63,6 +63,16 @@ My results are summarized in the table below for `Data_1`:
 
 And for `Data_2`:
 
+|Model               |Threshold        | Bal.Acc.|
+|--------------------|-----------------|---------|
+|optimal_bacc        |   0.6364        |   0.6805|
+|logreg_bal_acc      |   0.5460        |   0.6615|
+|logreg_undersampl   |   0.5560        |   0.6675|
+|logreg_smote        |   0.5482        |   0.6655|
+|dtree_bal_acc       |      n/a        |   0.7035|
+|dtree_undersampl    |      n/a        |   0.6925|
+|dtree_smote         |      n/a        |   0.7095|
+
 For additional details, please refer to my blogpost, link in the Introduction section. 
 
 ## Files
