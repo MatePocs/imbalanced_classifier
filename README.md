@@ -1,13 +1,15 @@
 # Handling Imbalanced Data with Basic Classifier Models
 
 
-## Introduction
+## Summary
 In this project, I examined how a Logistic Regression and a Decision Tree Classifier model can be optimised if the underlying data is imbalanced. The Python code uses `scikit-learn`'s classifier models (`LogisticRegression` and `DecisionTreeClassifier` and `undersample` method. I am also using `imblearn` for the more sophisticated `smote` oversampling method. 
 <br>
 
+## Links
 For more information of the project, please refer to my [blogpost on Medium](https://medium.com/datadriveninvestor/handling-imbalanced-data-with-basic-classifier-models-5ce3d61874f1).
 <br>
 
+## Theory
 The term _“imbalanced data”_ is usually applied to cases where the different values of the target variable are not equally represented in the data. Technically speaking most data is imbalanced to some degree and that’s fine, but a significant difference in target variable groups can make classifier models unreliable. 
 <br>
 I am concentrating on two different problems when it comes to training models with imbalanced data: 
