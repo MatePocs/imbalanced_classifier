@@ -5,6 +5,10 @@
 In this project, I examined how a Logistic Regression and a Decision Tree Classifier model can be optimised if the underlying data is imbalanced. The Python code uses `scikit-learn`'s classifier models (`LogisticRegression` and `DecisionTreeClassifier` and `undersample` method. I am also using `imblearn` for the more sophisticated `smote` oversampling method. 
 <br>
 
+## Keywords
+Logistic Regression, Decision Tree Classifier, Random Under/Oversampling, SMOTE, Classifier Performance
+<br>
+
 ## Links
 For more information of the project, please refer to my [blogpost on Medium](https://medium.com/datadriveninvestor/handling-imbalanced-data-with-basic-classifier-models-5ce3d61874f1).
 <br>
